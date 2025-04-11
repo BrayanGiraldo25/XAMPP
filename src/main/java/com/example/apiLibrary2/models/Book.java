@@ -21,7 +21,7 @@ public class Book {
     @OneToMany (mappedBy = "book")
     @JsonManagedReference // No genera una lista ciclica en prestamos
 
-    private List<Prestamo> prestamos;
+    private List<Prestamo> prestamo;
 
     // Constructores
 
